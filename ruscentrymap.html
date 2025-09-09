@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,53 +22,55 @@
 <noscript><div><img src="https://mc.yandex.ru/watch/104088748" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
-
 </head>
 <body>
     <header class="site-header">
-        <div class="logo-container"><span class="logo-text">Kieqw's Mods</span></div>    
-    <nav class="main-nav">
-        <a href="index.html" class="btn-discover active">Discover mods</a>
-        <a href="about.html" class="btn-discover">About</a>
-        <a href="contact.html" class="btn-discover">Contact</a>
-    </nav>
+        <div class="logo-container"><a href="index.html" class="logo-link"><span class="logo-text">Kieqw's Mods</span></a></div>
+        <div class="header-right-side">
+            <nav class="main-nav">
+                <a href="news.html" class="btn-discover" data-translate-key="news">News</a>
+                <a href="index.html" class="btn-discover" data-translate-key="discover_mods">Discover mods</a>
+                <a href="about.html" class="btn-discover" data-translate-key="about">About</a>
+                <a href="contact.html" class="btn-discover" data-translate-key="contact">Contact</a>
+            </nav>
+            <div class="lang-switcher">
+                <a href="#" class="lang-btn" data-lang="en">EN</a>
+                <a href="#" class="lang-btn" data-lang="ru">RU</a>
+            </div>
+        </div>
     </header>
 
     <div class="container">
-        <h1 class="mod-title">RusCentryMap</h1>
+        <h1 class="mod-title" data-translate-key="ruscentrymap_title">RusCentryMap</h1>
         
-        <!-- ВЕРХНИЙ БЛОК-ОБЕРТКА ДЛЯ КАРТИНКИ И САЙДБАРА -->
         <div class="top-section">
-            
-            <!-- Левая часть (картинка) -->
             <div class="mod-preview-container">
                 <div class="mod-preview">
                     <img src="https://i.imgur.com/etSfTMH.png" alt="Mod Preview" class="mod-image">
                 </div>
             </div>
 
-            <!-- Правая часть (информация о моде) -->
             <aside class="sidebar">
                 <div class="widget">
-                    <a href="https://modsfire.com/m8L0hPu1ZYD34Nj" target="_blank" class="btn btn-download">Download for Combo (11.6 MB)</a>
-                    <a href="https://modsfire.com/PN0UtAu3x1T9Kkg" target="_blank" class="btn btn-secondary">Download Standalone</a>
-                    <p class="verified-text">This file has been verified and is safe to download.</p>
+                    <a href="https://modsfire.com/m8L0hPu1ZYD34Nj" target="_blank" class="btn btn-download" data-translate-key="download_combo_btn">Download for Combo (11.6 MB)</a>
+                    <a href="https://modsfire.com/PN0UtAu3x1T9Kkg" target="_blank" class="btn btn-secondary" data-translate-key="download_standalone_btn">Download Standalone</a>
+                    <p class="verified-text" data-translate-key="verified_text">This file has been verified and is safe to download.</p>
                 </div>
                 <div class="widget creator-info">
                     <div class="creator-header">
                         <span class="creator-name">kieqw</span>
-                        <span class="verified-badge">Verified Creator</span>
+                        <span class="verified-badge" data-translate-key="verified_creator">Verified Creator</span>
                     </div>
                     <div class="info-grid">
-                        <div class="info-item"><strong>License</strong> <span>All Rights Reserved</span></div>
-                        <div class="info-item"><strong>Initial Release</strong> <span>2025-07-03</span></div>
-                        <div class="info-item"><strong>Current Version</strong> <span class="version">1.8</span></div>
-                        <div class="info-item"><strong>Compatibility</strong> <span class="compatibility">1.55</span></div>
-                        <div class="info-item"><strong>Last Updated</strong> <span>2025-07-09</span></div>
-                        <div class="info-item"><strong>Downloads</strong> <span class="downloads-count">2,712</span></div>
-                        <div class="info-item"><strong>Rating</strong> <span class="rating-stars">★★★★★</span></div>
+                        <div class="info-item"><strong data-translate-key="license">License</strong> <span>All Rights Reserved</span></div>
+                        <div class="info-item"><strong data-translate-key="initial_release">Initial Release</strong> <span>2025-07-03</span></div>
+                        <div class="info-item"><strong data-translate-key="current_version">Current Version</strong> <span class="version">1.8</span></div>
+                        <div class="info-item"><strong data-translate-key="compatibility">Compatibility</strong> <span class="compatibility">1.55</span></div>
+                        <div class="info-item"><strong data-translate-key="last_updated">Last Updated</strong> <span>2025-07-09</span></div>
+                        <div class="info-item"><strong data-translate-key="downloads">Downloads</strong> <span class="downloads-count">2,712</span></div>
+                        <div class="info-item"><strong data-translate-key="rating">Rating</strong> <span class="rating-stars">★★★★★</span></div>
                         <div class="info-item">
-                            <strong>Required Content</strong>
+                            <strong data-translate-key="required_content">Required Content</strong>
                             <div class="required-links-container">
                             </div>
                         </div>
@@ -77,10 +79,11 @@
             </aside>
         </div>
 
-        <!-- НИЖНИЙ БЛОК С ОПИСАНИЕМ -->
         <div class="mod-description-box">
-            <h3>Feature of this mod:</h3>
-            <p>RusCentryMap (Mari El Map) 🍅<br>Counts 10 cities: Yoshkar-Ola, Yaransk, Orshanka, Lum, Shelanger, Sernur, Sovetsky, Krasny Most, Novy Toryal.<br>🛬 Mod can work without any additions. But if you need road connections - download Kirov Map 1.7 or 1.6 and SibirMap. (Additional RC is required: RusCentryMap - Kirov Map - SibirMap RC)</p>
+            <h3 data-translate-key="features_title">Feature of this mod:</h3>
+            <div data-translate-key="ruscentrymap_feature_1">
+                <p>RusCentryMap (Mari El Map) 🍅<br>Counts 10 cities: Yoshkar-Ola, Yaransk, Orshanka, Lum, Shelanger, Sernur, Sovetsky, Krasny Most, Novy Toryal.<br>🛬 Mod can work without any additions. But if you need road connections - download Kirov Map 1.7 or 1.6 and SibirMap. (Additional RC is required: RusCentryMap - Kirov Map - SibirMap RC)</p>
+            </div>
         </div>
 		<script src="https://utteranc.es/client.js"
         repo="kieqw/kieqwmods.github.io"
@@ -91,15 +94,20 @@
 		</script>
 
     </div>
-		 <footer class="site-footer-main">
+	<footer class="site-footer-main">
         <div class="footer-content">
-            <p class="copyright-text">&copy; 2025 Kieqw's Mods. All Rights Reserved.</p>
+            <p class="copyright-text" data-translate-key="copyright">&copy; 2025 Kieqw's Mods. All Rights Reserved.</p>
             <nav class="footer-nav">
-                <a href="index.html">Discover mods</a>
-                <a href="about.html">About</a>
-                <a href="https://discord.gg/r8kfE7bJsy" target="_blank">Contact</a>
+                <a href="index.html" data-translate-key="discover_mods">Discover mods</a>
+                <a href="news.html" data-translate-key="news">News</a>
+                <a href="about.html" data-translate-key="about">About</a>
+                <a href="contact.html" data-translate-key="contact">Contact</a>
             </nav>
         </div>
     </footer>
+    
+    <!-- ПОДКЛЮЧАЕМ СКРИПТЫ ПЕРЕВОДА -->
+    <script src="translations.js"></script>
+    <script src="language.js"></script>
 </body>
 </html>

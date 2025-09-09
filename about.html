@@ -22,60 +22,70 @@
 <noscript><div><img src="https://mc.yandex.ru/watch/104088748" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
-
 </head>
 <body>
     <header class="site-header">
-        <div class="logo-container"><span class="logo-text">Kieqw's Mods</span></div>    
-    <nav class="main-nav">
-        <a href="index.html" class="btn-discover active">Discover mods</a>
-        <a href="about.html" class="btn-discover">About</a>
-        <a href="contact.html" class="btn-discover">Contact</a>
-    </nav>
+        <div class="logo-container"><a href="index.html" class="logo-link"><span class="logo-text">Kieqw's Mods</span></a></div> 
+        <div class="header-right-side">
+            <nav class="main-nav">
+                <a href="news.html" class="btn-discover" data-translate-key="news">News</a>
+                <a href="index.html" class="btn-discover" data-translate-key="discover_mods">Discover mods</a>
+                <a href="about.html" class="btn-discover active" data-translate-key="about">About</a>
+                <a href="contact.html" class="btn-discover" data-translate-key="contact">Contact</a>
+            </nav>
+            <div class="lang-switcher">
+                <a href="#" class="lang-btn" data-lang="en">EN</a>
+                <a href="#" class="lang-btn" data-lang="ru">RU</a>
+            </div>
+        </div>
     </header>
     <div class="container">
         <!-- START OF THE "ABOUT" PAGE CONTENT -->
         <div class="about-content">
-            <h1>About Kieqw's Mods</h1>
-            <p>
+            <h1 data-translate-key="about_page_title">About Kieqw's Mods</h1>
+            <p data-translate-key="about_intro">
                 Welcome to the official hub for my creations. This website is more than just a download archive; it's the central place for everything I build, designed to give you direct access to my work, ensure you always have the latest versions, and share the passion that drives this project forward.
             </p>
             
-            <h2 class="about-subtitle">My Modding Philosophy</h2>
-            <p>
-                My approach to modding is simple: create high-quality, immersive, and compatible content that enhances the core game experience. I believe that the best mods are those that feel like a natural extension of the game world. That's why I focus on seamless integration, stability, and attention to detail. Every project, big or small, is a labor of love, crafted with the same care I would want from a mod I was downloading for myself.
+            <h2 class="about-subtitle" data-translate-key="philosophy_title">My Modding Philosophy</h2>
+            <p data-translate-key="philosophy_content">
+                My approach to modding is simple: create high-quality, immersive, and compatible content that enhances the core game experience. I believe that the best mods are those that feel like a natural extension of the game world.
             </p>
 
-            <h2 class="about-subtitle">The Journey</h2>
-            <p>
-                It all started with a simple idea and a desire to see something new in a game I loved. What began as a small personal tweak quickly grew into a full-fledged passion for creation. I spent countless hours learning, experimenting, and refining my skills. Seeing other players enjoy something I made is the ultimate reward and the primary motivation to keep creating and pushing the boundaries of what's possible. This website is the next step in that journey.
+            <h2 class="about-subtitle" data-translate-key="journey_title">The Journey</h2>
+            <p data-translate-key="journey_content">
+                It all started with a simple idea and a desire to see something new in a game I loved. What began as a small personal tweak quickly grew into a full-fledged passion for creation.
             </p>
 
-            <h2 class="about-subtitle">Community & Support</h2>
-            <p>
-                This project would not be possible without the incredible support from the community. Your feedback, bug reports, screenshots, and words of encouragement are the fuel that keeps me going. Thank you for being a part of this. If you want to get more involved, share your thoughts, or get help, I highly encourage you to join our community on Discord. It's the best place to connect with me and other players.
+            <h2 class="about-subtitle" data-translate-key="community_title">Community & Support</h2>
+            <p data-translate-key="community_content">
+                This project would not be possible without the incredible support from the community. Your feedback, bug reports, screenshots, and words of encouragement are the fuel that keeps me going.
             </p>
 
-            <!-- === НОВЫЙ РАЗДЕЛ О КОПИРАЙТЕ === -->
-            <h2 class="about-subtitle">Copyright & Distribution Policy</h2>
-            <p>
-                This website is the exclusive and official source for my mods. It is not a random collection of files, but a curated portfolio of my original work. By downloading from here, you are ensuring you get the latest, safest, and most stable version directly from the creator.
+            <h2 class="about-subtitle" data-translate-key="copyright_policy_title">Copyright & Distribution Policy</h2>
+            <p data-translate-key="copyright_policy_p1">
+                This website is the exclusive and official source for my mods. It is not a random collection of files, but a curated portfolio of my original work.
             </p>
-            <p>
+            <p data-translate-key="copyright_policy_p2">
                 All content hosted on this domain is the intellectual property of Kieqw. <strong>Unauthorized redistribution, re-uploading to other websites, or inclusion in mod packs is strictly prohibited.</strong> If you wish to share my work, please link directly to this website.
             </p>
         </div>
         <!-- END OF THE "ABOUT" PAGE CONTENT -->
     </div>
-	 <footer class="site-footer-main">
+	<footer class="site-footer-main">
         <div class="footer-content">
-            <p class="copyright-text">&copy; 2025 Kieqw's Mods. All Rights Reserved.</p>
+            <p class="copyright-text" data-translate-key="copyright">&copy; 2025 Kieqw's Mods. All Rights Reserved.</p>
             <nav class="footer-nav">
-                <a href="index.html">Discover mods</a>
-                <a href="about.html">About</a>
-                <a href="https://discord.gg/r8kfE7bJsy" target="_blank">Contact</a>
+                <a href="index.html" data-translate-key="discover_mods">Discover mods</a>
+                <a href="news.html" data-translate-key="news">News</a>
+                <a href="about.html" data-translate-key="about">About</a>
+                <a href="contact.html" data-translate-key="contact">Contact</a>
             </nav>
         </div>
     </footer>
+    
+    <!-- ПОДКЛЮЧАЕМ СКРИПТЫ ПЕРЕВОДА -->
+    <script src="translations.js"></script>
+    <script src="language.js"></script>
 </body>
 </html>
