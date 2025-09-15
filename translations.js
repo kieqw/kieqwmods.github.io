@@ -98,7 +98,8 @@ const translations = {
         "kirishi_tikhvin_feature_1": "• Connects Kirishi with Tikhvin.",
         "hexmapaltai_feature_1": "• Connects HexMap and Altai Map.",
         "hexmaprc_feature_1": "• Connects HexMap and NOS in the Surgut area.",
-        "chernyshevsk_borzya_feature_1": "• Connects Chernyshevsk with junction near Borzya."
+        "chernyshevsk_borzya_feature_1": "• Connects Chernyshevsk with junction near Borzya.",
+		"chernozemye_donbass_feature_1": "• Road connector and fix for Donbass Map and Project Chernozemye."
     },
     "ru": {
         // --- GENERAL (HEADER & FOOTER) ---
