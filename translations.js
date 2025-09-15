@@ -196,6 +196,14 @@ const translations = {
         "kirishi_tikhvin_feature_1": "• Соединяет Кириши с Тихвином.",
         "hexmapaltai_feature_1": "• Соединяет HexMap и Карту Алтая.",
         "hexmaprc_feature_1": "• Соединяет HexMap и NOS в районе Сургута.",
-        "chernyshevsk_borzya_feature_1": "• Соединяет Чернышевск с развязкой возле Борзи."
+        "chernyshevsk_borzya_feature_1": "• Соединяет Чернышевск с развязкой возле Борзи.",
+		"hexmap_altai_feature_1": "• Соединяет HexMap и Карту Алтая.",
+		"hexmap_nos_feature_1": "• Соединяет HexMap и NOS в районе Сургута.",
+		"hexmap_europe_feature_1": "• Перемещает HexMap в модуль Европы, требуется оригинальная карта, без нее будет вылет!",
+		"boksitogorsk_254_feature_1": "• Соединяет Бокситогорск с Вышним Волочком.",
+		"boksitogorsk_255_feature_1": "• Соединяет Бокситогорск с Вышним Волочком.",
+		"chernozemye_donbass_feature_1": "• Коннектор и фикс для DonbassMap и Проекта Черноземье."
+		
+		
     }
 };

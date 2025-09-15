@@ -25,14 +25,21 @@
 </head>
 <body>
     <header class="site-header">
-        <div class="logo-container"><a href="index.html" class="logo-link"><span class="logo-text">Kieqw's Mods</span></a></div>  
-        <div class="header-right-side">
-            <nav class="main-nav">
-                <a href="news.html" class="btn-discover" data-translate-key="news">News</a>
-                <a href="index.html" class="btn-discover" data-translate-key="discover_mods">Discover mods</a>
-                <a href="about.html" class="btn-discover" data-translate-key="about">About</a>
-                <a href="contact.html" class="btn-discover" data-translate-key="contact">Contact</a>
-            </nav>
+        <div class="logo-container"><a href="index.html" class="logo-link"><span class="logo-text">Kieqw's Mods</span></a></div>
+
+    <!-- КНОПКА-БУРГЕР (видна только на мобильных) -->
+    <button class="mobile-nav-toggle" aria-controls="header-right-side" aria-expanded="false">
+        <span class="sr-only">Menu</span>
+    </button>
+
+    <!-- ПРАВАЯ ЧАСТЬ ШАПКИ (теперь с ID) -->
+    <div class="header-right-side" id="header-right-side">
+        <nav class="main-nav">
+            <a href="news.html" class="btn-discover" data-translate-key="news">News</a>
+            <a href="index.html" class="btn-discover" data-translate-key="discover_mods">Discover mods</a>
+            <a href="about.html" class="btn-discover" data-translate-key="about">About</a>
+            <a href="contact.html" class="btn-discover" data-translate-key="contact">Contact</a>
+        </nav>
             <div class="lang-switcher">
                 <a href="#" class="lang-btn" data-lang="en">EN</a>
                 <a href="#" class="lang-btn" data-lang="ru">RU</a>
@@ -119,5 +126,6 @@
     <!-- ПОДКЛЮЧАЕМ СКРИПТЫ ПЕРЕВОДА -->
     <script src="translations.js"></script>
     <script src="language.js"></script>
+    <script src="mobile-menu.js"></script>
 </body>
 </html>
