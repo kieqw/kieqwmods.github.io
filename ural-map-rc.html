@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- ETS2 EURO TRUCK SIMULATOR 2  -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,20 +27,16 @@
 <body>
     <header class="site-header">
         <div class="logo-container"><a href="index.html" class="logo-link"><span class="logo-text">Kieqw's Mods</span></a></div>
-
-    <!-- КНОПКА-БУРГЕР (видна только на мобильных) -->
-    <button class="mobile-nav-toggle" aria-controls="header-right-side" aria-expanded="false">
-        <span class="sr-only">Menu</span>
-    </button>
-
-    <!-- ПРАВАЯ ЧАСТЬ ШАПКИ (теперь с ID) -->
-    <div class="header-right-side" id="header-right-side">
-        <nav class="main-nav">
-            <a href="news.html" class="btn-discover" data-translate-key="news">News</a>
-            <a href="index.html" class="btn-discover" data-translate-key="discover_mods">Discover mods</a>
-            <a href="about.html" class="btn-discover" data-translate-key="about">About</a>
-            <a href="contact.html" class="btn-discover" data-translate-key="contact">Contact</a>
-        </nav>
+        <button class="mobile-nav-toggle" aria-controls="header-right-side" aria-expanded="false">
+            <span class="sr-only">Menu</span>
+        </button>
+        <div class="header-right-side" id="header-right-side">
+            <nav class="main-nav">
+                <a href="news.html" class="btn-discover" data-translate-key="news">News</a>
+                <a href="index.html" class="btn-discover" data-translate-key="discover_mods">Discover mods</a>
+                <a href="about.html" class="btn-discover" data-translate-key="about">About</a>
+                <a href="contact.html" class="btn-discover" data-translate-key="contact">Contact</a>
+            </nav>
             <div class="lang-switcher">
                 <a href="#" class="lang-btn" data-lang="en">EN</a>
                 <a href="#" class="lang-btn" data-lang="ru">RU</a>
@@ -88,24 +85,50 @@
             </aside>
         </div>
 
-        <div class="mod-description-box">
-            <h3 data-translate-key="features_title">Feature of this mod:</h3>
-            <p data-translate-key="ural_map_feature_1">• Connects Ural Map with Northern Open Spaces (Ivdel - M/B 1023)</p>
-            <h3 data-translate-key="required_mods_title">Downloads for all of the required mods:</h3>
-            <ul>
-                <li><a href="https://truckymods.io/euro-truck-simulator-2/maps/ural-map" target="_blank">Ural Map</a></li>
-                <li><a href="https://truckymods.io/euro-truck-simulator-2/maps/northern-open-spaces" target="_blank">Northern Open Spaces</a></li>
-                <li><a href="https://truckymods.io/euro-truck-simulator-2/map-patches/ural-map-northern-open-spaces-rc" target="_blank">Ural Map - Northern Open Spaces RC</a></li>
-            </ul>
-            <h3 data-translate-key="load_order_title">Load order:</h3>
-            <ol>
-                <li>Ural Map NOS RC 2.0</li>
-                <li>Ural Map - Northern Open Spaces RC</li>
-                <li>Ural Map</li>
-                <li>Northern Open Spaces</li>
-                <li>*Rusmap files*</li>
-            </ol>
+        <div class="tab-section">
+            <div class="tab-nav">
+                <button class="tab-button active" data-tab="description" data-translate-key="tab_description">Description</button>
+                <button class="tab-button" data-tab="versions" data-translate-key="tab_versions">Versions</button>
+            </div>
+            <div class="tab-content">
+                <div class="tab-panel mod-description-box active" id="description">
+                    <h3 data-translate-key="features_title">Feature of this mod:</h3>
+                    <p data-translate-key="ural_map_feature_1">• Connects Ural Map with Northern Open Spaces (Ivdel - M/B 1023)</p>
+                    <h3 data-translate-key="required_mods_title">Downloads for all of the required mods:</h3>
+                    <ul>
+                        <li><a href="https://truckymods.io/euro-truck-simulator-2/maps/ural-map" target="_blank">Ural Map</a></li>
+                        <li><a href="https://truckymods.io/euro-truck-simulator-2/maps/northern-open-spaces" target="_blank">Northern Open Spaces</a></li>
+                        <li><a href="https://truckymods.io/euro-truck-simulator-2/map-patches/ural-map-northern-open-spaces-rc" target="_blank">Ural Map - Northern Open Spaces RC</a></li>
+                    </ul>
+                    <h3 data-translate-key="load_order_title">Load order:</h3>
+                    <ol>
+                        <li>Ural Map NOS RC 2.0</li>
+                        <li>Ural Map - Northern Open Spaces RC</li>
+                        <li>Ural Map</li>
+                        <li>Northern Open Spaces</li>
+                        <li>*Rusmap files*</li>
+                    </ol>
+                </div>
+                <div class="tab-panel" id="versions">
+                    <div class="version-entry">
+                        <div class="version-main-info">
+                            <div class="version-header">
+                                <h3>2.1</h3>
+                                <span class="game-version-tag">1.55</span>
+                            </div>
+                            <p class="version-date">2025-07-21</p>
+                            <ul class="version-changelog">
+                                <li>Compatibility update for the latest Ural Map version.</li>
+                            </ul>
+                        </div>
+                        <div class="version-download-area">
+                            <a href="https://modsfire.com/UO2NGmEU1MRc06B" target="_blank" class="btn btn-version-download">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        
 		<script src="https://utteranc.es/client.js"
         repo="kieqw/kieqwmods.github.io"
         issue-term="pathname"
@@ -113,7 +136,6 @@
         crossorigin="anonymous"
         async>
 		</script>
-
     </div>
 	<footer class="site-footer-main">
         <div class="footer-content">
@@ -127,9 +149,10 @@
         </div>
     </footer>
     
-    <!-- ПОДКЛЮЧАЕМ СКРИПТЫ ПЕРЕВОДА -->
     <script src="translations.js"></script>
     <script src="language.js"></script>
     <script src="mobile-menu.js"></script>
+    <script src="tabs.js"></script>
+	<!-- ETS2 EURO TRUCK SIMULATOR 2  -->
 </body>
 </html>

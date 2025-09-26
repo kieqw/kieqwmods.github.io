@@ -571,3 +571,140 @@ body {
         margin-left: 0;
     }
 }
+/*
+========================================
+           СТИЛИ ДЛЯ ТАБОВ
+========================================
+*/
+.tab-section {
+    margin-top: 30px;
+}
+
+/* Навигация по табам */
+.tab-nav {
+    display: flex;
+    border-bottom: 2px solid #2a2a3a;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    background: none;
+    border: none;
+    color: #a0a0a0;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.2s ease;
+}
+
+.tab-button:hover {
+    color: #ffffff;
+}
+
+/* Активная кнопка таба */
+.tab-button.active {
+    color: #ffffff;
+}
+
+/* Подчеркивание для активной кнопки */
+.tab-button.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; /* Накладывается на border-bottom родителя */
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+/* Панели с контентом */
+.tab-panel {
+    display: none; /* По умолчанию все панели скрыты */
+}
+
+.tab-panel.active {
+    display: block; /* Показываем только активную */
+}
+
+/* Стили для блока с версиями */
+.version-entry {
+    background-color: #1e1e2f;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.version-header {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.version-header h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.game-version-tag {
+    background-color: #c0392b;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.version-date {
+    color: #a0a0a0;
+    font-size: 14px;
+    margin: 0 0 15px 0;
+}
+
+.version-changelog {
+    padding-left: 20px;
+    margin: 0;
+    color: #c0c0c0;
+}
+
+.version-changelog li {
+    margin-bottom: 8px;
+}
+/*
+========================================
+    УЛУЧШЕННЫЕ СТИЛИ ДЛЯ ТАБА ВЕРСИЙ
+========================================
+*/
+
+/* Делаем основной блок гибким, чтобы разнести контент и кнопку по краям */
+.version-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Область с кнопкой скачивания */
+.version-download-area {
+    flex-shrink: 0; /* Запрещаем кнопке сжиматься */
+}
+
+/* Стили для самой кнопки */
+.btn-version-download {
+    display: inline-block;
+    background-color: #2ecc71;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.btn-version-download:hover {
+    background-color: #27ae60;
+}

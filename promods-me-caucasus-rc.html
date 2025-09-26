@@ -27,19 +27,19 @@
     <header class="site-header">
         <div class="logo-container"><a href="index.html" class="logo-link"><span class="logo-text">Kieqw's Mods</span></a></div>
 
-    <!-- КНОПКА-БУРГЕР (видна только на мобильных) -->
-    <button class="mobile-nav-toggle" aria-controls="header-right-side" aria-expanded="false">
-        <span class="sr-only">Menu</span>
-    </button>
+        <!-- КНОПКА-БУРГЕР (видна только на мобильных) -->
+        <button class="mobile-nav-toggle" aria-controls="header-right-side" aria-expanded="false">
+            <span class="sr-only">Menu</span>
+        </button>
 
-    <!-- ПРАВАЯ ЧАСТЬ ШАПКИ (теперь с ID) -->
-    <div class="header-right-side" id="header-right-side">
-        <nav class="main-nav">
-            <a href="news.html" class="btn-discover" data-translate-key="news">News</a>
-            <a href="index.html" class="btn-discover" data-translate-key="discover_mods">Discover mods</a>
-            <a href="about.html" class="btn-discover" data-translate-key="about">About</a>
-            <a href="contact.html" class="btn-discover" data-translate-key="contact">Contact</a>
-        </nav>
+        <!-- ПРАВАЯ ЧАСТЬ ШАПКИ (теперь с ID) -->
+        <div class="header-right-side" id="header-right-side">
+            <nav class="main-nav">
+                <a href="news.html" class="btn-discover" data-translate-key="news">News</a>
+                <a href="index.html" class="btn-discover" data-translate-key="discover_mods">Discover mods</a>
+                <a href="about.html" class="btn-discover" data-translate-key="about">About</a>
+                <a href="contact.html" class="btn-discover" data-translate-key="contact">Contact</a>
+            </nav>
             <div class="lang-switcher">
                 <a href="#" class="lang-btn" data-lang="en">EN</a>
                 <a href="#" class="lang-btn" data-lang="ru">RU</a>
@@ -89,25 +89,82 @@
             </aside>
         </div>
 
-        <div class="mod-description-box">
-            <h3 data-translate-key="features_title">Feature of this mod:</h3>
-            <p data-translate-key="promods_me_feature_1">• Connects Promods ME with Caucasus Dream Map (Baiji - Baneh)</p>
-            <h3 data-translate-key="required_mods_title">Downloads for all of the required mods:</h3>
-            <ul>
-                <li><a href="https://promods.net" target="_blank">Promods</a></li>
-				<li><a href="https://promods.net" target="_blank">Promods Middle-East</a></li>
-                <li><a href="https://www.modland.net/euro-truck-simulator-2/maps/caucasus-dream-map.html" target="_blank">Caucasus Dream Map</a></li>
-                <li><a href="https://truckymods.io/euro-truck-simulator-2/map-patches/caucasus-dream-map-promods-rc" target="_blank">Caucasus Dream Map - Promods RC</a></li>
-            </ul>
-            <h3 data-translate-key="load_order_title">Load order:</h3>
-            <ol>
-                <li>Promods ME - Caucasus Dream Map RC</li>
-                <li>Caucasus Dream Map - Promods RC</li>
-                <li>Promods Middle-East</li>
-                <li>Promods</li>
-                <li>*Caucasus dream map files*</li>
-            </ol>
+        <!-- ======================================================= -->
+        <!-- ==== НАЧАЛО НОВОЙ СЕКЦИИ С ТАБАМИ ======================= -->
+        <!-- ======================================================= -->
+        <div class="tab-section">
+            <div class="tab-nav">
+                <button class="tab-button active" data-tab="description" data-translate-key="tab_description">Description</button>
+                <button class="tab-button" data-tab="versions" data-translate-key="tab_versions">Versions</button>
+            </div>
+
+            <div class="tab-content">
+                <!-- Панель с описанием -->
+                <div class="tab-panel mod-description-box active" id="description">
+                    <h3 data-translate-key="features_title">Feature of this mod:</h3>
+                    <p data-translate-key="promods_me_feature_1">• Connects Promods ME with Caucasus Dream Map (Baiji - Baneh)</p>
+                    <h3 data-translate-key="required_mods_title">Downloads for all of the required mods:</h3>
+                    <ul>
+                        <li><a href="https://promods.net" target="_blank">Promods</a></li>
+                        <li><a href="https://promods.net" target="_blank">Promods Middle-East</a></li>
+                        <li><a href="https://www.modland.net/euro-truck-simulator-2/maps/caucasus-dream-map.html" target="_blank">Caucasus Dream Map</a></li>
+                        <li><a href="https://truckymods.io/euro-truck-simulator-2/map-patches/caucasus-dream-map-promods-rc" target="_blank">Caucasus Dream Map - Promods RC</a></li>
+                    </ul>
+                    <h3 data-translate-key="load_order_title">Load order:</h3>
+                    <ol>
+                        <li>Promods ME - Caucasus Dream Map RC</li>
+                        <li>Caucasus Dream Map - Promods RC</li>
+                        <li>Promods Middle-East</li>
+                        <li>Promods</li>
+                        <li>*Caucasus dream map files*</li>
+                    </ol>
+                </div>
+
+                <!-- Панель с версиями -->
+                <div class="tab-panel" id="versions">
+                    
+                    <!-- Версия 1.1 -->
+                    <div class="version-entry">
+                        <div class="version-main-info">
+                            <div class="version-header">
+                                <h3>1.1</h3>
+                                <span class="game-version-tag">1.55</span>
+                            </div>
+                            <p class="version-date">2025-08-04</p>
+                            <ul class="version-changelog">
+                                <li>Compatibility update for the latest game version and bug fixes.</li>
+                            </ul>
+                        </div>
+                        <div class="version-download-area">
+                            <!-- ССЫЛКА НА СКАЧИВАНИЕ ЭТОЙ ВЕРСИИ -->
+                            <a href="https://modsfire.com/VjXFn3Nr2um20Ax" target="_blank" class="btn btn-version-download">Download</a>
+                        </div>
+                    </div>
+
+                    <!-- Версия 1.0 -->
+                    <div class="version-entry">
+                        <div class="version-main-info">
+                            <div class="version-header">
+                                <h3>1.0</h3>
+                                <span class="game-version-tag">1.54</span>
+                            </div>
+                            <p class="version-date">2025-05-21</p>
+                            <ul class="version-changelog">
+                                <li>Initial Release.</li>
+                            </ul>
+                        </div>
+                        <div class="version-download-area">
+                            <!-- СЮДА НУЖНО ВСТАВИТЬ ССЫЛКУ НА СТАРУЮ ВЕРСИЮ, ЕСЛИ ОНА ЕСТЬ -->
+                            <a href="https://truckymods.io/euro-truck-simulator-2/map-patches/promods-me-caucasus-dream-map-rc-209834#nav-builds" target="_blank" class="btn btn-version-download">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        <!-- ======================================================= -->
+        <!-- ==== КОНЕЦ НОВОЙ СЕКЦИИ С ТАБАМИ ========================= -->
+        <!-- ======================================================= -->
+
 		<script src="https://utteranc.es/client.js"
         repo="kieqw/kieqwmods.github.io"
         issue-term="pathname"
@@ -128,10 +185,11 @@
             </nav>
         </div>
     </footer>
-    
-    <!-- ПОДКЛЮЧАЕМ СКРИПТЫ ПЕРЕВОДА -->
+	
     <script src="translations.js"></script>
     <script src="language.js"></script>
     <script src="mobile-menu.js"></script>
+    <script src="tabs.js"></script>
+
 </body>
 </html>

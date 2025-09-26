@@ -31,7 +31,7 @@ const translations = {
         "project_russia_desc": "A simple fix that makes Project Russia compatible with the latest Promods.",
         "koromyslovo_title": "Koromyslovo Add-on for Project Russia",
         "koromyslovo_desc": "Adds the settlement of Koromyslovo and an interchange near the city of Yaroslavl to the game.",
-        "boksitogorsk_255_title": "Boksitogorsk - Vyshny Volochek RC (RM 2.55)",
+        "boksitogorsk_255_title": "Boksitogorsk - Vyshny Volochek RC (RM Aldimator)",
         "boksitogorsk_255_desc": "Connects Boksitogorsk with Vyshny Volochek.",
         "chernozemye_donbass_title": "Chernozemye DonbassMap RC&FIX",
         "chernozemye_donbass_desc": "Road connector and fix for DonbassMap and Project Chernozemye.",
@@ -99,7 +99,11 @@ const translations = {
         "hexmapaltai_feature_1": "• Connects HexMap and Altai Map.",
         "hexmaprc_feature_1": "• Connects HexMap and NOS in the Surgut area.",
         "chernyshevsk_borzya_feature_1": "• Connects Chernyshevsk with junction near Borzya.",
-		"chernozemye_donbass_feature_1": "• Road connector and fix for Donbass Map and Project Chernozemye."
+		"chernozemye_donbass_feature_1": "• Road connector and fix for Donbass Map and Project Chernozemye.",
+		"boksitogorsk_255_feature_1": "• Connects Boksitogorsk with Vyshny Volochek.",
+		"boksitogorsk_254_feature_1": "• Connects Boksitogorsk with Vyshny Volochek.",
+		"tab_description": "Description",
+        "tab_versions": "Versions"
     },
     "ru": {
         // --- GENERAL (HEADER & FOOTER) ---
@@ -130,7 +134,7 @@ const translations = {
         "project_russia_desc": "Простой фикс, который делает Project Russia совместимым с последней версией Promods.",
         "koromyslovo_title": "Дополнение \"Коромыслово\" для Project Russia",
         "koromyslovo_desc": "Добавляет в игру поселок Коромыслово и развязку возле города Ярославль.",
-        "boksitogorsk_255_title": "Бокситогорск - Вышний Волочёк RC (RM 2.55)",
+        "boksitogorsk_255_title": "Бокситогорск - Вышний Волочёк RC (RM Aldimator)",
         "boksitogorsk_255_desc": "Соединяет Бокситогорск с Вышним Волочком.",
         "chernozemye_donbass_title": "Черноземье DonbassMap RC&FIX",
         "chernozemye_donbass_desc": "Коннектор и фикс для DonbassMap и Проекта Черноземье.",
@@ -203,7 +207,9 @@ const translations = {
 		"hexmap_europe_feature_1": "• Перемещает HexMap в модуль Европы, требуется оригинальная карта, без нее будет вылет!",
 		"boksitogorsk_254_feature_1": "• Соединяет Бокситогорск с Вышним Волочком.",
 		"boksitogorsk_255_feature_1": "• Соединяет Бокситогорск с Вышним Волочком.",
-		"chernozemye_donbass_feature_1": "• Коннектор и фикс для DonbassMap и Проекта Черноземье."
+		"chernozemye_donbass_feature_1": "• Коннектор и фикс для DonbassMap и Проекта Черноземье.",
+		"tab_description": "Описание",
+        "tab_versions": "Версии"
 		
 		
     }
