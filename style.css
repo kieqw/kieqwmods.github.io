@@ -171,8 +171,9 @@ body {
 .top-section {
     display: flex;
     gap: 40px;
-    align-items: flex-start;
+    align-items: center; 
     margin-bottom: 30px;
+}
 }
 .mod-preview-container {
     flex: 1;
@@ -707,4 +708,7 @@ body {
 
 .btn-version-download:hover {
     background-color: #27ae60;
+}
+.mod-description-box h3 {
+    margin-top: 30px;
 }
