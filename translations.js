@@ -1,6 +1,4 @@
-// =================================================================
-// ФИНАЛЬНАЯ, ИСПРАВЛЕННАЯ ВЕРСИЯ ФАЙЛА С ПЕРЕВОДАМИ
-// =================================================================
+
 const translations = {
     "en": {
         // --- GENERAL (HEADER & FOOTER) ---
@@ -29,8 +27,8 @@ const translations = {
         "chernyshevsk_borzya_desc": "Road connection for Chernyshevsk and Borzya.",
         "project_russia_title": "Project Russia - Promods FIX",
         "project_russia_desc": "A simple fix that makes Project Russia compatible with the latest Promods.",
-        "koromyslovo_title": "Koromyslovo Add-on for Project Russia + Project Russia Fix",
-        "koromyslovo_desc": "Adds the settlement of Koromyslovo and an interchange near the city of Yaroslavl to the game. Fixes the return of models along the Tambov-Penza highway.",
+        "koromyslovo_title": "Koromyslovo Add-on for Project Russia + Project Russia and Chernozemye Fix",
+        "koromyslovo_desc": "Adds the settlement of Koromyslovo and an interchange near the city of Yaroslavl to the game. Fixes the return of models along the Tambov-Penza highway. Plus fix for returning fld models (building_model) when using Project Chernozemye 2.1.2 with Project Russia.",
         "boksitogorsk_255_title": "Boksitogorsk - Vyshny Volochek RC (RM Aldimator)",
         "boksitogorsk_255_desc": "Connects Boksitogorsk with Vyshny Volochek.",
         "chernozemye_donbass_title": "Chernozemye DonbassMap RC&FIX",
@@ -94,7 +92,7 @@ const translations = {
         "roextended_donbass_feature_1": "• Connects Roextended with Donbass Map",
         "promods_me_feature_1": "• Connects Promods ME with Caucasus Dream Map (Baiji - Baneh)",
         "project_russia_feature_1": "• Prefab fix that makes Project Russia compatible with Promods.",
-        "koromyslovo_feature_1": "• Adds the settlement of Koromyslovo and an interchange near the city of Yaroslavl to the game. Fixes the return of models along the Tambov-Penza highway.",
+        "koromyslovo_feature_1": "• Adds the settlement of Koromyslovo and an interchange near the city of Yaroslavl to the game. Fixes the return of models along the Tambov-Penza highway. Plus a fix for returning fld models (building_model) when using Project Chernozemye 2.1.2 with Project Russia.",
         "kirishi_tikhvin_feature_1": "• Connects Kirishi with Tikhvin.",
         "hexmapaltai_feature_1": "• Connects HexMap and Altai Map.",
         "hexmaprc_feature_1": "• Connects HexMap and NOS in the Surgut area.",
@@ -149,8 +147,8 @@ const translations = {
         "chernyshevsk_borzya_desc": "Дорожное соединение для Чернышевска и Борзи.",
         "project_russia_title": "Project Russia - Promods FIX",
         "project_russia_desc": "Простой фикс, который делает Project Russia совместимым с последней версией Promods.",
-        "koromyslovo_title": "Дополнение \"Коромыслово\" для Project Russia + Project Russia ФИКС",
-        "koromyslovo_desc": "Добавляет в игру поселок Коромыслово и развязку возле города Ярославль. Фиксит возвращения моделей по трассе Тамбов-Пенза при использовании проекта России 5.6.3a ",
+        "koromyslovo_title": "Дополнение \"Коромыслово\" для Project Russia + Project Russia и Черноземье ФИКС",
+        "koromyslovo_desc": "Добавляет в игру поселок Коромыслово и развязку возле города Ярославль. Фиксит возвращения моделей по трассе Тамбов-Пенза при использовании проекта России 5.6.3a. Плюс фикс возврашения флд моделей (building_model) при использовании Project Chernozemye 2.1.2 с Проектом Россия. ",
         "boksitogorsk_255_title": "Бокситогорск - Вышний Волочёк RC (RM Aldimator)",
         "boksitogorsk_255_desc": "Соединяет Бокситогорск с Вышним Волочком.",
         "chernozemye_donbass_title": "Черноземье DonbassMap RC&FIX",
@@ -214,7 +212,7 @@ const translations = {
         "roextended_donbass_feature_1": "• Соединяет Roextended с Картой Донбасса",
         "promods_me_feature_1": "• Соединяет Promods ME с Caucasus Dream Map (Байджи - Бане)",
         "project_russia_feature_1": "• Префаб-фикс, который делает Project Russia совместимым с Promods.",
-        "koromyslovo_feature_1": "• Добавляет в игру поселок Коромыслово и развязку возле города Ярославль. Фиксит возвращения моделей по трассе Тамбов-Пенза при использовании проекта России 5.6.3a",
+        "koromyslovo_feature_1": "• Добавляет в игру поселок Коромыслово и развязку возле города Ярославль. Фиксит возвращения моделей по трассе Тамбов-Пенза при использовании проекта России 5.6.3a. Плюс фикс возврашения флд моделей (building_model) при использовании Project Chernozemye 2.1.2 с Проектом Россия.",
         "kirishi_tikhvin_feature_1": "• Соединяет Кириши с Тихвином.",
         "hexmapaltai_feature_1": "• Соединяет HexMap и Карту Алтая.",
         "hexmaprc_feature_1": "• Соединяет HexMap и NOS в районе Сургута.",
