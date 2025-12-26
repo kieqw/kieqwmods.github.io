@@ -148,7 +148,7 @@ const translations = {
         "project_russia_title": "Project Russia - Promods FIX",
         "project_russia_desc": "Простой фикс, который делает Project Russia совместимым с последней версией Promods.",
         "koromyslovo_title": "Дополнение \"Коромыслово\" для Project Russia + Project Russia и Черноземье ФИКС",
-        "koromyslovo_desc": "Добавляет в игру поселок Коромыслово и развязку возле города Ярославль. Фиксит возвращения моделей по трассе Тамбов-Пенза при использовании проекта России 5.6.3a. Плюс фикс возврашения флд моделей (building_model) при использовании Project Chernozemye 2.1.2 с Проектом Россия. ",
+        "koromyslovo_desc": "Добавляет в игру поселок Коромыслово и развязку возле города Ярославль. ",
         "boksitogorsk_255_title": "Бокситогорск - Вышний Волочёк RC (RM Aldimator)",
         "boksitogorsk_255_desc": "Соединяет Бокситогорск с Вышним Волочком.",
         "chernozemye_donbass_title": "Черноземье DonbassMap RC&FIX",
