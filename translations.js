@@ -28,7 +28,7 @@ const translations = {
         "project_russia_title": "Project Russia - Promods FIX",
         "project_russia_desc": "A simple fix that makes Project Russia compatible with the latest Promods.",
         "koromyslovo_title": "Koromyslovo Add-on for Project Russia + Project Russia and Chernozemye Fix",
-        "koromyslovo_desc": "Adds the settlement of Koromyslovo and an interchange near the city of Yaroslavl to the game. Fixes the return of models along the Tambov-Penza highway. Plus fix for returning fld models (building_model) when using Project Chernozemye 2.1.2 with Project Russia.",
+        "koromyslovo_desc": "Adds the settlement of Koromyslovo and an interchange near the city of Yaroslavl to the game.",
         "boksitogorsk_255_title": "Boksitogorsk - Vyshny Volochek RC (RM Aldimator)",
         "boksitogorsk_255_desc": "Connects Boksitogorsk with Vyshny Volochek.",
         "chernozemye_donbass_title": "Chernozemye DonbassMap RC&FIX",
