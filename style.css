@@ -226,7 +226,8 @@ body {
 }
 .mod-description-box p {
     line-height: 1.6;
-    margin: 0;
+    margin: 0 0 20px 0; 
+}
 }
 .widget {
     background-color: #1e1e2f;
@@ -713,4 +714,5 @@ body {
     margin-top: 0;      /* Убираем лишний отступ сверху */
     margin-bottom: 15px; /* Оставляем небольшой отступ снизу до текста */
 }
+
 
