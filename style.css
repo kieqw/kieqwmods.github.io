@@ -585,7 +585,7 @@ body {
 .tab-nav {
     display: flex;
     border-bottom: 2px solid #2a2a3a;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 .tab-button {
@@ -710,6 +710,7 @@ body {
     background-color: #27ae60;
 }
 .mod-description-box h3 {
-    margin-top: 30px;
-
+    margin-top: 0;      /* Убираем лишний отступ сверху */
+    margin-bottom: 15px; /* Оставляем небольшой отступ снизу до текста */
 }
+
