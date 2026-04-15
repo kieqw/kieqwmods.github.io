@@ -87,7 +87,7 @@ const translations = {
         "created_by": "Created by",
         "ural_map_feature_1": "• Connects Ural Map with Northern Open Spaces (Ivdel - M/B 1023)",
         "truck_dream_feature_1": "• Road connection between Truck Dream Road and SouthEast Asia.",
-        "ruscentrymap_kirov_feature_1": "ruscentrymap_kirov_feature_1": "RusCentryMap connector with Kirov Map and SibirMap for ETS2 version 1.58.\nWhat the connector adds:\n- Yoshkar-Ola from Kirov Map.\n- All cities leading from Yoshkar-Ola from RusCentryMap.\n- The city of Novaya Tura and its connection with Kazan.\n- Expansion of the city of Sernur and its connection with Kirov Map.",
+        "ruscentrymap_kirov_feature_1": "RusCentryMap connector with Kirov Map and SibirMap for ETS2 version 1.58.\nWhat the connector adds:\n- Yoshkar-Ola from Kirov Map.\n- All cities leading from Yoshkar-Ola from RusCentryMap.\n- The city of Novaya Tura and its connection with Kazan.\n- Expansion of the city of Sernur and its connection with Kirov Map.",
         "ruscentrymap_feature_1": "<p>RusCentryMap (Mari El Map) 🍅<br>Counts 10 cities: Yoshkar-Ola, Yaransk, Orshanka, Lum, Shelanger, Sernur, Sovetsky, Krasny Most, Novy Toryal.<br>🛬 Mod can work without any additions. But if you need road connections - download Kirov Map 1.7 or 1.6 and SibirMap. (Additional RC is required: RusCentryMap - Kirov Map - SibirMap RC)</p>",
         "roextended_donbass_feature_1": "• Connects Roextended with Donbass Map",
         "promods_me_feature_1": "• Connects Promods ME with Caucasus Dream Map (Baiji - Baneh)",
