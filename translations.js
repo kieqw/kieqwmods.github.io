@@ -214,7 +214,14 @@ What the connector adds:
         "created_by": "Создано",
         "ural_map_feature_1": "• Соединяет Карту Урала с Northern Open Spaces (Ивдель - М/Б 1023)",
         "truck_dream_feature_1": "• Дорожное соединение между Truck Dream Road и SouthEast Asia.",
-        "ruscentrymap_kirov_feature_1": "• Соединяет RusCentryMap с Kirov Map и SibirMap.",
+        "ruscentrymap_kirov_feature_1": `Коннектор RusCentryMap с Kirov Map и SibirMap для версии ETS2 1.58.<br><br>
+			Что добавляет коннектор:
+			<ul>
+  				<li>Йошкар-Ола из Kirov Map.</li>
+  				<li>Все города, идущие от Йошкар-Олы из RusCentryMap.</li>
+  				<li>Город Новая Тура и его соединение с Казанью.</li>
+  				<li>Расширение города Сернур и его соединение с Kirov Map.</li>
+			</ul>`,
         "ruscentrymap_feature_1": "<p>RusCentryMap (Карта Марий Эл) 🍅<br>Включает 10 городов: Йошкар-Ола, Яранск, Оршанка, Лум, Шелангер, Сернур, Советский, Красный Мост, Новый Торъял.<br>🛬 Мод может работать без дополнений. Но если нужны дорожные соединения - скачайте Карту Кирова 1.7 или 1.6 и SibirMap. (Требуется дополнительный RC: RusCentryMap - Kirov Map - SibirMap RC)</p>",
         "roextended_donbass_feature_1": "• Соединяет Roextended с Картой Донбасса",
         "promods_me_feature_1": "• Соединяет Promods ME с Caucasus Dream Map (Байджи - Бане)",
